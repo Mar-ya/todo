@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  *{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+  }
+   
+   .box{
+    width: 50%;
+    height:auto;
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    text-decoration: wavy;
+    
+  } 
+  .title{
+   font-size: 1.5rem;
+   color: aqua;
+   font-weight: 600;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-style: italic;
+   line-height: 15px;
+  } 
+  .parent{
+   display: flex;
+   margin: 10px;
+   gap: 2;
+   flex-wrap: wrap;
+  }
+  nav{
+   padding-left: 50px;
+  }
+ li{
+  list-style: none;
+ }
+ </style>
+</head>
+<body>
+ <nav>
+  <ul>
+   <li>about</li>
+   <li>home</li>
+   <li>services</li>
+  </ul>
+ </nav>
+ <div class="parent">
+ <div class="box">
+ <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam molestiae officia pariatur est reiciendis iste vitae natus eum modi!</p>
+ </div>
+ <div class="box">
+  <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo ipsam molestiae officia pariatur est reiciendis iste vitae natus eum modi!</p>
+  </div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <style>
+  *{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+  }
+  .main{
+   width: 100%;
+   min-height: 100vh;
+   background-color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: ;
+  }
+  .box{
+   width:50px;
+   height: 100px;
+   background-color: red;
+   border-radius: 2px;
+   border: 1px solid black;
+   border-width: 2px;
+   border-style: solid;
+   border-color: blue; 
+  }
+  .my-head{
+   font-size: 1.875rem;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 100; 
+   color: blue;
+   line-height: 22px;
+  }
+  .nav{
+   display: flex;
+   align-items:  ;
+   
+  }
+  .nav ul{
+   display: flex;
+   justify-content: space-around;
+   width: 80%;
+   /* flex: 1; it will occupy its own space 
+   gap doesnt work without flex */
+  }
+  .nav ul li{
+   
+  }
+  
+ </style>
+</head>
+<!-- two elements on same roll, use display:flex
+ we can use flex direction as column or row
+ on mobile, use flex direction:column 
+ if flex direction is on a row, the justify content affects x-axis and align item affect y-axis and vice versa-->
+<body>
+ <nav>
+  <ul>
+   <li>home</li>
+   <li>contact</li>
+   <li></li>
+  </ul>
+ </nav>
+ <main class="main">
+  <div class="box"></div>
+  <h1 class="my-head">maryam</h1>
+ </main>
+</body>
+</html>
